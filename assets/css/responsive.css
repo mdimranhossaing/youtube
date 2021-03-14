@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1200px) {
+	.site-content .main-content .post article {
+		width: 30.33333%;
+		margin: 20px 1%;
+	}
+	.site-content .sidebar .widget-3,
+	.sign-in-section {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+
+	.site-content .sidebar {
+		display: none;
+	}
+	.site-content .main-content {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		float: none;
+	}
+
+
+
+	.site-content .main-content .post article {
+		width: 46%;
+	}
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {}
